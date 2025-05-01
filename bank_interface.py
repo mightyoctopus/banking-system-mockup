@@ -32,6 +32,7 @@ class BankInterface:
 
         self.deposit_entry = None
         self.withdrawal_entry = None
+        self.withdrawal_text = None
 
         self.window.mainloop()
 
